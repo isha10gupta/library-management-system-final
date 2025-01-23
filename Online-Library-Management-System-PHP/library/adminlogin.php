@@ -11,7 +11,7 @@ if(isset($_POST['login']))
 if ($_POST["vercode"] != $_SESSION["vercode"] OR $_SESSION["vercode"]=='')  {
         echo "<script>alert('Incorrect verification code');</script>" ;
     } 
-        else {
+        else { 
 
 $username=$_POST['username'];
 $password=md5($_POST['password']);
