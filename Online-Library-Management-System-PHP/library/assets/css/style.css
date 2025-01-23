@@ -1,0 +1,204 @@
+﻿/*=============================================================
+   Modern and Distinct CSS Design
+=============================================================*/
+
+/* =============================================================
+   GENERAL STYLES
+============================================================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa; /* Soft gray for clean design */
+    color: #333;
+}
+
+.content-wrapper {
+    margin: 100px auto 40px; /* Adds top margin for floating navbar */
+    padding: 20px;
+    min-height: 800px;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* =============================================================
+   NAVBAR STYLES - Full Opacity Background
+============================================================= */
+
+.menu-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #6c63ff; /* Set background color to solid white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+    padding: 20px 0; /* Adjust padding for increased height */
+}
+
+#menu-top {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between menu items */
+}
+
+#menu-top a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px; /* Larger padding for a better clickable area */
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 16px; /* Slightly larger font */
+}
+
+#menu-top a:hover {
+    background: #5d52ea; /* Vibrant purple */
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.4);
+}
+
+/* =============================================================
+   CARD-STYLE LAYOUTS
+============================================================= */
+
+.card {
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #6c63ff;
+    font-size: 18px;
+}
+
+/* =============================================================
+   FORMS AND INPUTS
+============================================================= */
+
+form {
+    padding: 30px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form .form-group input,
+form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+form .form-group input:focus,
+form .form-group select:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    background: linear-gradient(45deg, #6c63ff, #48c6ef);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background: #48c6ef;
+    box-shadow: 0 5px 20px rgba(72, 198, 239, 0.4);
+}
+
+/* =============================================================
+   DROPDOWN MENUS
+============================================================= */
+
+select {
+    appearance: none;
+    background: #fff;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="%23333" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
+select option {
+    background: #f7f7f7;
+    color: #333;
+    padding: 10px;
+}
+
+/* =============================================================
+   FOOTER SECTION
+============================================================= */
+
+.footer-section {
+    padding: 20px;
+    text-align: center;
+    background: #6c63ff;
+    color: #fff;
+    font-size: 14px;
+    border-top: 5px solid #48c6ef;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+    color: #48c6ef;
+}
+
+/* =============================================================
+   UTILITIES
+============================================================= */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
