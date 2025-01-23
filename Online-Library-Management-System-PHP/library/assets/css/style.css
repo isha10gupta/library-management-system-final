@@ -1,29 +1,31 @@
-﻿/*=============================================================
+```css
+/*=============================================================
    Modern and Distinct CSS Design
+   - Clean, user-friendly design with modern aesthetics
 =============================================================*/
 
 /* =============================================================
    GENERAL STYLES
-============================================================= */ 
+============================================================= */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f8f9fa; /* Soft gray for clean design */
-    color: #333;
+    font-family: 'Poppins', sans-serif; /* Modern and clean sans-serif font */
+    line-height: 1.6; /* Enhances readability */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background: #f8f9fa; /* Soft gray background for a clean look */
+    color: #333; /* Dark gray text for readability */
 }
 
 .content-wrapper {
-    margin: 100px auto 40px; /* Adds top margin for floating navbar */
-    padding: 20px;
-    min-height: 800px;
-    background: #ffffff;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    width: 90%;
-    max-width: 1200px;
+    margin: 100px auto 40px; /* Adds top margin for fixed navbar spacing */
+    padding: 20px; /* Adds padding inside the container */
+    min-height: 800px; /* Ensures sufficient vertical space */
+    background: #ffffff; /* White background for the main content area */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 15px; /* Rounded corners for a softer design */
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Limits max width for large screens */
 }
 
 /* =============================================================
@@ -31,36 +33,36 @@ body {
 ============================================================= */
 
 .menu-section {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #6c63ff; /* Set background color to solid white */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
-    padding: 20px 0; /* Adjust padding for increased height */
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0; /* Aligns to the top of the page */
+    width: 100%; /* Full width navbar */
+    z-index: 1000; /* Ensures navbar stays above other elements */
+    background-color: #6c63ff; /* Solid purple background for navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a floating effect */
+    padding: 20px 0; /* Increased height with vertical padding */
 }
 
 #menu-top {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Flexbox for menu item alignment */
+    justify-content: center; /* Center-aligns menu items */
     gap: 20px; /* Spacing between menu items */
 }
 
 #menu-top a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 15px 25px; /* Larger padding for a better clickable area */
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    font-size: 16px; /* Slightly larger font */
+    color: #333; /* Default dark gray text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text bold */
+    padding: 15px 25px; /* Enlarged clickable area */
+    text-transform: uppercase; /* All caps for menu items */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-size: 16px; /* Slightly larger font size */
 }
 
 #menu-top a:hover {
-    background: #5d52ea; /* Vibrant purple */
-    color: #fff;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.4);
+    background: #5d52ea; /* Vibrant purple background on hover */
+    color: #fff; /* White text on hover */
+    border-radius: 30px; /* Rounded hover effect */
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.4); /* Glow effect on hover */
 }
 
 /* =============================================================
@@ -68,23 +70,23 @@ body {
 ============================================================= */
 
 .card {
-    background: #ffffff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    padding: 20px;
-    margin: 20px 0;
-    transition: all 0.3s ease;
+    background: #ffffff; /* White card background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px; /* Inner padding for content */
+    margin: 20px 0; /* Vertical spacing between cards */
+    transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
 }
 
 .card h3 {
-    margin: 0 0 10px;
-    color: #6c63ff;
-    font-size: 18px;
+    margin: 0 0 10px; /* Bottom margin for spacing */
+    color: #6c63ff; /* Purple text color for headings */
+    font-size: 18px; /* Slightly larger font size for headings */
 }
 
 /* =============================================================
@@ -92,52 +94,52 @@ body {
 ============================================================= */
 
 form {
-    padding: 30px;
-    background: #f7f7f7;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Inner padding for form */
+    background: #f7f7f7; /* Light gray background for contrast */
+    border-radius: 10px; /* Rounded corners for form */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for form */
 }
 
 form .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #555;
+    display: block; /* Labels take full width */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-bottom: 5px; /* Spacing between label and input */
+    color: #555; /* Medium gray color */
 }
 
 form .form-group input,
 form .form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    font-size: 14px;
-    margin-bottom: 15px;
-    transition: border-color 0.3s ease;
+    width: 100%; /* Full width inputs and dropdowns */
+    padding: 10px; /* Inner padding for inputs */
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded edges */
+    font-size: 14px; /* Standard font size */
+    margin-bottom: 15px; /* Spacing between inputs */
+    transition: border-color 0.3s ease; /* Smooth focus effect */
 }
 
 form .form-group input:focus,
 form .form-group select:focus {
-    border-color: #6c63ff;
-    outline: none;
+    border-color: #6c63ff; /* Purple border on focus */
+    outline: none; /* Removes default focus outline */
 }
 
 button[type="submit"] {
-    display: inline-block;
-    background: linear-gradient(45deg, #6c63ff, #48c6ef);
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
+    display: inline-block; /* Inline block for proper padding and alignment */
+    background: linear-gradient(45deg, #6c63ff, #48c6ef); /* Gradient button background */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded button corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    text-transform: uppercase; /* All caps for text */
 }
 
 button[type="submit"]:hover {
-    background: #48c6ef;
-    box-shadow: 0 5px 20px rgba(72, 198, 239, 0.4);
+    background: #48c6ef; /* Light blue on hover */
+    box-shadow: 0 5px 20px rgba(72, 198, 239, 0.4); /* Glow effect on hover */
 }
 
 /* =============================================================
@@ -145,22 +147,22 @@ button[type="submit"]:hover {
 ============================================================= */
 
 select {
-    appearance: none;
-    background: #fff;
-    border: 2px solid #ddd;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 8px;
-    cursor: pointer;
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="%23333" d="M7 10l5 5 5-5z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 15px center;
+    appearance: none; /* Removes default browser styling */
+    background: #fff; /* White background */
+    border: 2px solid #ddd; /* Light gray border */
+    padding: 10px; /* Inner padding */
+    font-size: 14px; /* Font size for text */
+    border-radius: 8px; /* Rounded dropdown */
+    cursor: pointer; /* Pointer cursor */
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="%23333" d="M7 10l5 5 5-5z"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat; /* Prevents repetition of the arrow */
+    background-position: right 15px center; /* Aligns the arrow */
 }
 
 select option {
-    background: #f7f7f7;
-    color: #333;
-    padding: 10px;
+    background: #f7f7f7; /* Light gray background for options */
+    color: #333; /* Dark gray text */
+    padding: 10px; /* Spacing within options */
 }
 
 /* =============================================================
@@ -168,23 +170,23 @@ select option {
 ============================================================= */
 
 .footer-section {
-    padding: 20px;
-    text-align: center;
-    background: #6c63ff;
-    color: #fff;
-    font-size: 14px;
-    border-top: 5px solid #48c6ef;
+    padding: 20px; /* Padding for footer content */
+    text-align: center; /* Center-aligns text */
+    background: #6c63ff; /* Purple background */
+    color: #fff; /* White text */
+    font-size: 14px; /* Footer font size */
+    border-top: 5px solid #48c6ef; /* Blue top border for accent */
 }
 
 .footer-section a {
-    color: #fff;
-    text-decoration: underline;
-    font-weight: bold;
+    color: #fff; /* White text for links */
+    text-decoration: underline; /* Underlined links */
+    font-weight: bold; /* Bold links */
 }
 
 .footer-section a:hover {
-    text-decoration: none;
-    color: #48c6ef;
+    text-decoration: none; /* Removes underline on hover */
+    color: #48c6ef; /* Blue color on hover */
 }
 
 /* =============================================================
@@ -192,14 +194,15 @@ select option {
 ============================================================= */
 
 .text-center {
-    text-align: center;
+    text-align: center; /* Utility class for centering text */
 }
 
 .mt-20 {
-    margin-top: 20px;
+    margin-top: 20px; /* Adds top margin */
 }
 
 .mb-20 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Adds bottom margin */
 }
 /* end */
+```
