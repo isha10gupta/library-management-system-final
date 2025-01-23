@@ -28,9 +28,7 @@
        
         custom_fun:function()
         {
-            /*====================================
-             WRITE YOUR   SCRIPTS  BELOW
-            ======================================*/
+            /* write your scripts */
 
 
 
