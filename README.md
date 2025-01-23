@@ -6,7 +6,7 @@ This project is a simple Library Management System designed to help library staf
 ## Prerequisites 
 
 - **XAMPP** (Apache, MySQL)
-- A web browser (Google Chrome, Firefox, etc.)
+- A web browser (Google Chrome, Firefox, etc.) 
 
 ## Setup Instructions
 
