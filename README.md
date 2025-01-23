@@ -3,7 +3,7 @@
 
 This project is a simple Library Management System designed to help library staff manage books, issue them to students, and maintain records. The backend is implemented using PHP and MySQL, while the frontend can be HTML, CSS, and JavaScript. Below are the steps to set up the project locally using XAMPP.
 
-## Prerequisites
+## Prerequisites 
 
 - **XAMPP** (Apache, MySQL)
 - A web browser (Google Chrome, Firefox, etc.)
