@@ -11,7 +11,7 @@ if(isset($_POST['login']))
 if ($_POST["vercode"] != $_SESSION["vercode"] OR $_SESSION["vercode"]=='')  {
         echo "<script>alert('Incorrect verification code');</script>" ;
     } 
-        else {
+        else { 
 $email=$_POST['emailid'];
 $password=md5($_POST['password']);
 $sql ="SELECT EmailId,Password,StudentId,Status FROM tblstudents WHERE EmailId=:email and Password=:password";
