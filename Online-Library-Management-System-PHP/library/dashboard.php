@@ -1,5 +1,5 @@
 <?php
-// Start the session to maintain user data
+// start the session to maintain user data
 session_start();
 
 // Disable error reporting (can be enabled during development for debugging)
