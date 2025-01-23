@@ -113,8 +113,6 @@ foreach($results as $result)
                     <!--End Advanced Tables -->
                 </div>
             </div>
-
-
             
     </div>
     </div>
@@ -133,7 +131,7 @@ foreach($results as $result)
     <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
       <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
-
 </body>
 </html>
 <?php } ?>
+#isssued-books.phpfile
